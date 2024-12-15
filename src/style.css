@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    display: inline;
+    margin-left: 60%;
+}
+
+ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+    border-right: 2px solid grey;
+    height: 10px;
+
+}
+
+li,
+h1 {
+    display: inline;
+}
+
+.searchbar {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.searchbar input {
+    border: none;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 5%;
+}
+
+.image {
+    border: 2px solid black;
+    width: 18%;
+   
+    font-size:14px;
+}
+
+.imagecontainer img {
+    width: 100%;
+    
+}
+.aboutcontainer
+{
+    margin-top: 30px;
+}
+.about{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about p{
+    padding: 20px;
+    font-size: larger;
+}
+
+
+.contact{
+    padding: 20px;
+
+}
+
+/*Step 37 select footer and set bg col and text align center*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
